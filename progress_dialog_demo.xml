@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <TextView
+            android:paddingTop="20dp"
+            android:text="This is a progress dialog demo."
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" android:id="@+id/textView6"/>
+    <Button
+            android:text="Start Background Calculating"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/buttonProgressDialog"/>
+
+</LinearLayout>
